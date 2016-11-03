@@ -1,0 +1,13 @@
+
+# python
+*.pyc
+.cache/
+.eggs/
+
+# editor
+*~
+
+# builds
+*.pyd
+build/
+*.egg-info/

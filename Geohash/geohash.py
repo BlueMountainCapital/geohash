@@ -18,7 +18,9 @@ You should have received a copy of the GNU Affero General Public
 License along with Geohash.  If not, see
 <http://www.gnu.org/licenses/>.
 """
+from __future__ import absolute_import
 from math import log10
+from six.moves import range
 
 #  Note: the alphabet in geohash differs from the common base32
 #  alphabet described in IETF's RFC 4648

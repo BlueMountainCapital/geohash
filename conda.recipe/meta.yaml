@@ -1,0 +1,22 @@
+package:
+    name: geohash
+    version: 1.0
+
+source:
+    path: ../
+
+build:
+    number: 1
+
+requirements:
+  build:
+    - python
+    - docutils
+
+  run:
+    - python
+    - six
+
+test:
+  imports:
+    - geohash
